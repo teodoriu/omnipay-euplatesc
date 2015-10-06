@@ -33,6 +33,6 @@
             "dev-master": "2.0.x-dev"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "2.0",
     "prefer-stable": true
 }
