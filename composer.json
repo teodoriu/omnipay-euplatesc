@@ -1,0 +1,36 @@
+{
+    "name": "bteodorwork/omnipay-euplatesc",
+    "type": "library",
+    "description": "Euplatesc.ro gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "euplatesc.ro",
+        "purchase"
+    ],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Teodor Brahadiru",
+            "email": "teodor.btc.work@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Euplatesc\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
